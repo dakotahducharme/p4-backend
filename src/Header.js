@@ -15,7 +15,10 @@ const Heading = styled.header`
   }
   a {
     text-decoration: none;
-    ${'' /* color: white; */}
+    color: black;
+  }
+  a:hover {
+    color: grey;
   }
 `
 
@@ -25,8 +28,8 @@ const Header = () => {
       <nav>
         <ul>
           <h1>example</h1>
-          <li><a href="#">example</a></li>
-          <li><a href="#">example</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">sign in</a></li>
           <li><a href="#">example</a></li>
         </ul>
       </nav>

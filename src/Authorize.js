@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const Authorization = styled.div`
-  background-color: lavender;
-  width: 200px;
-  padding: 20px 0 40px 0;
   display: flex;
   justify-content: center;
-  align-content: center;
+  background-color: #778beb;
+  height: 200px;
+  width: 200px;
+  padding: 20px 0 40px 0;
   border-radius: 20px;
   input, button  {
     border-radius: 10px;
